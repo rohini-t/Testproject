@@ -6,8 +6,8 @@
       <class name="testcases.testScript">
         <methods>
           <include name="Search"/>
+          <include name="setUp"/>
           <include name="aftertest"/>
-          <include name="beforetest"/>
         </methods>
       </class> <!-- testcases.testScript -->
     </classes>
