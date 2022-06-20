@@ -1,6 +1,7 @@
 package testcases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,13 +19,7 @@ public class testScript extends baseclass {
 	WebDriver driver;
 	
 	
-/*	@BeforeTest
-	public void beforetest() {
 
-		WebDriverManager.chromedriver().setup();
-		
-		driver.get("https://www.google.com/");
-}*/
 	
 	
 	@Test(priority=1, description="valid_login_with_valid credential")
