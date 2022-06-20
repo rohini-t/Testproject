@@ -28,7 +28,7 @@ public class baseclass {
 	String baseUrl;
 	
 	@BeforeMethod
-	@BeforeClass
+	
 	
 	public void setUp() throws Exception {
 	driver = new ChromeDriver();

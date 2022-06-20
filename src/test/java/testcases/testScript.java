@@ -16,7 +16,7 @@ import tests.baseclass;
 
 
 public class testScript extends baseclass {
-	WebDriver driver;
+	//WebDriver driver;
 	
 	
 
